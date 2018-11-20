@@ -7,4 +7,5 @@
  * @return PicturesView对象
  */
 * +(instancetype)showImage:(NSInteger)selectIndex andImagesArray:(NSArray *)imagesArray andImageFrameArray:(NSMutableArray *)imageFrameArray;
+
 ![image](https://github.com/lsfA1/LookImages/raw/master/LookImages/images/01.jpg)
