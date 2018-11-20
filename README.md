@@ -8,4 +8,4 @@
  */
 * +(instancetype)showImage:(NSInteger)selectIndex andImagesArray:(NSArray *)imagesArray andImageFrameArray:(NSMutableArray *)imageFrameArray;
 
-![image](https://github.com/lsf0322/LookImages/LookImages/images/01.jpg)
+![image](https://github.com/2694345236@qq.com/LookImages/LookImages/images/01.jpg)
