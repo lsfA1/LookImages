@@ -6,4 +6,4 @@
  * @param imageFrameArray 图片在cell中原有位置frame的array
  * @return PicturesView对象
  */
-+(instancetype)showImage:(NSInteger)selectIndex andImagesArray:(NSArray *)imagesArray andImageFrameArray:(NSMutableArray *)imageFrameArray;
+* +(instancetype)showImage:(NSInteger)selectIndex andImagesArray:(NSArray *)imagesArray andImageFrameArray:(NSMutableArray *)imageFrameArray;
