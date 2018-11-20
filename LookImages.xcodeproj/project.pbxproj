@@ -15,6 +15,8 @@
 		717AE7F421A39744009C9AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE7F321A39744009C9AC9 /* main.m */; };
 		717AE7FE21A39744009C9AC9 /* LookImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE7FD21A39744009C9AC9 /* LookImagesTests.m */; };
 		717AE80921A39744009C9AC9 /* LookImagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE80821A39744009C9AC9 /* LookImagesUITests.m */; };
+		717AE81B21A39758009C9AC9 /* ShowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE81721A39758009C9AC9 /* ShowImageView.m */; };
+		717AE81C21A39758009C9AC9 /* PicturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE81A21A39758009C9AC9 /* PicturesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		717AE80421A39744009C9AC9 /* LookImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookImagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717AE80821A39744009C9AC9 /* LookImagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookImagesUITests.m; sourceTree = "<group>"; };
 		717AE80A21A39744009C9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717AE81721A39758009C9AC9 /* ShowImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageView.m; sourceTree = "<group>"; };
+		717AE81821A39758009C9AC9 /* PicturesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicturesView.h; sourceTree = "<group>"; };
+		717AE81921A39758009C9AC9 /* ShowImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageView.h; sourceTree = "<group>"; };
+		717AE81A21A39758009C9AC9 /* PicturesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicturesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		717AE7E321A39742009C9AC9 /* LookImages */ = {
 			isa = PBXGroup;
 			children = (
+				717AE81621A39758009C9AC9 /* PicturesScrollView */,
 				717AE7E421A39742009C9AC9 /* AppDelegate.h */,
 				717AE7E521A39742009C9AC9 /* AppDelegate.m */,
 				717AE7E721A39742009C9AC9 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				717AE80A21A39744009C9AC9 /* Info.plist */,
 			);
 			path = LookImagesUITests;
+			sourceTree = "<group>";
+		};
+		717AE81621A39758009C9AC9 /* PicturesScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				717AE81821A39758009C9AC9 /* PicturesView.h */,
+				717AE81A21A39758009C9AC9 /* PicturesView.m */,
+				717AE81921A39758009C9AC9 /* ShowImageView.h */,
+				717AE81721A39758009C9AC9 /* ShowImageView.m */,
+			);
+			path = PicturesScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				717AE7E921A39742009C9AC9 /* ViewController.m in Sources */,
+				717AE81C21A39758009C9AC9 /* PicturesView.m in Sources */,
+				717AE81B21A39758009C9AC9 /* ShowImageView.m in Sources */,
 				717AE7F421A39744009C9AC9 /* main.m in Sources */,
 				717AE7E621A39742009C9AC9 /* AppDelegate.m in Sources */,
 			);
