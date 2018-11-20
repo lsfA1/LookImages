@@ -7,4 +7,3 @@
  * @return PicturesView对象
  */
 * +(instancetype)showImage:(NSInteger)selectIndex andImagesArray:(NSArray *)imagesArray andImageFrameArray:(NSMutableArray *)imageFrameArray;
-   ![image](LookImages/LookImages/images/01.jpg)
